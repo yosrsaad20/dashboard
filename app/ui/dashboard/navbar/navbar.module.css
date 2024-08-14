@@ -1,0 +1,46 @@
+.container {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: var(--bgSoft);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .button {
+    padding: 10px;
+    background-color: #f25c5c;
+    color: var(--text);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .button:hover {
+    background-color: #f3a395;
+  }
+  
+  .menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .search {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #2e374a;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .input {
+    background-color: transparent;
+    border: none;
+    color: var(--text);
+  }
+  
+  .icons{
+    display: flex;
+    gap: 20px;
+  }
